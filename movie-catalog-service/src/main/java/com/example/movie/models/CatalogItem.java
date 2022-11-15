@@ -1,0 +1,39 @@
+package com.example.movie.models;
+
+public class CatalogItem {
+
+    private String name;
+    private String desc;
+    private int raing;
+
+    public CatalogItem(String name, String desc, int raing) {
+        this.name = name;
+        this.desc = desc;
+        this.raing = raing;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    public int getRaing() {
+        return raing;
+    }
+
+    public void setRaing(int raing) {
+        this.raing = raing;
+    }
+
+}
